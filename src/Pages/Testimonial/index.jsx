@@ -17,7 +17,7 @@ export default function Testimonial() {
 
     const [quoteExpanded, setQuoteExpanded] = useState(false)
 
-    return <main className="testimonials-section">
+    return <main className="testimonials-main">
         <div className="testimonial-card">
             <div className="testimonial-card__profile">
                 <img src={TESTIMONIAL_CARD_OBJECT.author.profileImg} alt="Sarah Dole" />

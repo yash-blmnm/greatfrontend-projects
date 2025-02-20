@@ -11,6 +11,7 @@ function Home() {
                 <h3 className='projects-section__heading'>GreatFrontEnd Project Solutions</h3>
                 <ul>
                     <li><Link to="/testimonial">Testimonial Card</Link></li>
+                    <li><Link to="/blogcard">Blog Card</Link></li>
                 </ul>
             </section>
         </main>
