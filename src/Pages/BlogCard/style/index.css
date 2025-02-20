@@ -17,12 +17,14 @@
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background-color: #ffffff;
+    overflow: hidden;
 }
 
 .blog-card__image {
-    width: 340px;
+    width: 100%;
     height: 300px;
-    background-size: contain;
+    background-size: 100%;
+        background-repeat: no-repeat;
 }
 
 .blog-card__content {
