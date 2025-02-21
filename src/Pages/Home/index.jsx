@@ -12,6 +12,7 @@ function Home() {
                 <ul>
                     <li><Link to="/testimonial">Testimonial Card</Link></li>
                     <li><Link to="/blogcard">Blog Card</Link></li>
+                    <li><Link to="/profilecard">Profile Card</Link></li>
                 </ul>
             </section>
         </main>
