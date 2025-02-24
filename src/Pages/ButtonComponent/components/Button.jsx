@@ -12,9 +12,9 @@ export default function Button({
 
     return <div className="button-wrapper">
         <button className={btnClassNames}>
-            {renderIcon && iconPosition && iconPosition === 'left' ? <div className='button-icon'>{renderIcon()}</div> : ''}
+            {renderIcon && iconPosition && ['left', 'both'].includes(iconPosition) ? <div className='button-icon'>{renderIcon()}</div> : ''}
             {label.length ? <span className='button-label'>{label}</span> : ''}
-            {renderIcon && iconPosition && iconPosition === 'right' ? <div className='button-icon'>{renderIcon()}</div> : ''}
+            {renderIcon && iconPosition && ['right', 'both'].includes(iconPosition) ? <div className='button-icon'>{renderIcon()}</div> : ''}
         </button>
     </div>
 }

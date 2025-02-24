@@ -1,7 +1,19 @@
-.buuton-section {
+.button-component-main {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    align-items: center;
+    min-height: 100vh;
+    color: #171717;
+}
+.buuton-section {
+display: flex;
+    flex-direction: column;
+    gap: 40px;
+        border-radius: 8px;
+        background-color: #ffffff;
+        overflow: hidden;
+        margin: 100px 0 0;
+        padding: 10px
 }
 
 .button-section__item {
