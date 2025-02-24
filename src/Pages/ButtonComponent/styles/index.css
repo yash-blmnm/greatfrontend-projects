@@ -1,0 +1,11 @@
+.buuton-section {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.button-section__item {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}

@@ -13,6 +13,7 @@ function Home() {
                     <li><Link to="/testimonial">Testimonial Card</Link></li>
                     <li><Link to="/blogcard">Blog Card</Link></li>
                     <li><Link to="/profilecard">Profile Card</Link></li>
+                    <li><Link to="/buttoncomponent">Button Component</Link></li>
                 </ul>
             </section>
         </main>

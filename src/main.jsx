@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from 'react-router'
 import Testimonial from './Pages/Testimonial';
 import BlogCard from './Pages/BlogCard';
 import ProfileCard from './Pages/ProfileCard'
+import ButtonComponent from './Pages/ButtonComponent';
 
 
 createRoot(document.getElementById('root')).render(
@@ -16,6 +17,7 @@ createRoot(document.getElementById('root')).render(
         <Route path="testimonial" element={<Testimonial />} />
         <Route path="blogcard" element={<BlogCard />} />
         <Route path="profilecard" element={<ProfileCard />} />
+        <Route path="buttoncomponent" element={<ButtonComponent />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>,
