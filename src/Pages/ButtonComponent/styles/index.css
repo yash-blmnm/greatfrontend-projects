@@ -12,12 +12,19 @@ display: flex;
         border-radius: 8px;
         background-color: #ffffff;
         overflow: hidden;
-        margin: 100px 0 0;
+        margin: 100px 0 50px;
         padding: 10px
 }
 
 .button-section__item {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    gap: 30px;
+    gap: 40px;
+    }
+    
+    @media screen and (max-width: 768px) {
+        .button-section__item {
+            gap: 10px;
+        }
 }
