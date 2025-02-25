@@ -1,0 +1,53 @@
+.badge {
+    border: 1px solid transparent;
+    border-radius: 20px / 20px;
+}
+
+.badge-neutral {
+    border-color: #E6E6E6;
+    background-color: #F9FAFB;
+    color: #525252;
+}
+
+.badge-error {
+    border-color: #FECACA;
+    background-color: #FEF2F2;
+    color: #DC2626;
+}            
+
+.badge-warning { 
+    border-color: #FDE68A;
+    background-color: #FFFBEB;
+    color: #B45309;                         
+}
+
+.badge-success {
+    border-color: #BBF7D0;
+    background-color: #F9FAFB;
+    color: #15803D;
+}
+
+.badge-brand {
+    border-color: #C7D2FE;
+    background-color: #EEF2FF;
+    color: #4338CA;
+}
+
+.badge-small {
+    font-size: 12px;
+    line-height: 16px;
+    padding: 2px 6px;
+}
+
+.badge-medium {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 2px 8px;
+}
+
+.badge-large {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 4px 10px;
+}
+
