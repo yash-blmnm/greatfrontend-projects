@@ -7,19 +7,18 @@
 .badges-section {
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 24px;
     border-radius: 8px;
     background-color: #ffffff;
     overflow: hidden;
     margin: 200px 0 50px;
-    padding: 10px
 }
 
 .badge-section__item {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    gap: 30px;
+    gap: 24px;
 }
     
     @media screen and (max-width: 768px) {
