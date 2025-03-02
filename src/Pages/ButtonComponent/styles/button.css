@@ -39,13 +39,13 @@ button {
 
 .button-link-color {
     border: none;
-    background-color: #FFFFFF;
+    background-color: transparent;
     color: #4338CA;
 }
 
 .button-link-grey {
     border: none;
-    background-color: #FFFFFF;
+    background-color: transparent;
     color: #525252;
 }
 

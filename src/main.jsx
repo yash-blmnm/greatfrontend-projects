@@ -8,7 +8,7 @@ import BlogCard from './Pages/BlogCard';
 import ProfileCard from './Pages/ProfileCard'
 import ButtonComponent from './Pages/ButtonComponent';
 import BadgeComponent from './Pages/BadgeComponent';
-
+import NavbarComponent from './Pages/NavbarComponent';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -20,6 +20,7 @@ createRoot(document.getElementById('root')).render(
         <Route path="profilecard" element={<ProfileCard />} />
         <Route path="badgecomponent" element={<BadgeComponent />} />
         <Route path="buttoncomponent" element={<ButtonComponent />} />
+        <Route path="navbarcomponent" element={<NavbarComponent />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>,
