@@ -1,4 +1,4 @@
-import TabMenu from './components/TabMEnu';
+import TabMenu from './components/TabMenu';
 import './styles/index.css';
 
 const TabMenuContent = [
