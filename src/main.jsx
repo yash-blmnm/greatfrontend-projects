@@ -11,6 +11,7 @@ import BadgeComponent from './Pages/BadgeComponent';
 import NavbarComponent from './Pages/NavbarComponent';
 import TextInputComponent from './Pages/TextInputComponent'
 import TextAreaCompont from './Pages/TextAreaComponent'
+import TabMenuComponent from './Pages/TabMenuComponent'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -25,6 +26,7 @@ createRoot(document.getElementById('root')).render(
         <Route path="navbarcomponent" element={<NavbarComponent />} />
         <Route path="textinputcomponent" element={<TextInputComponent />} />
         <Route path="textareacomponent" element={<TextAreaCompont />} />
+        <Route path="tabmenucomponent" element={<TabMenuComponent />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>,
