@@ -8,7 +8,7 @@
 .text-area-component-list {
     display: flex;
     flex-direction: column;
-    gap: 48px;
+    gap: 32px;
     margin: 112px 0 50px;
     width: 340px;
 }
