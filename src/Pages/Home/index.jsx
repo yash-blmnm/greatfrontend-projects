@@ -16,6 +16,7 @@ function Home() {
                     <li><Link to="/badgecomponent">Badge Component</Link></li>
                     <li><Link to="/buttoncomponent">Button Component</Link></li>
                     <li><Link to="/navbarcomponent">NavBar Component</Link></li>
+                    <li><Link to="/textinputcomponent">Text Input Component</Link></li>
                 </ul>
             </section>
         </main>

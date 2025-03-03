@@ -9,6 +9,7 @@ import ProfileCard from './Pages/ProfileCard'
 import ButtonComponent from './Pages/ButtonComponent';
 import BadgeComponent from './Pages/BadgeComponent';
 import NavbarComponent from './Pages/NavbarComponent';
+import TextInputComponent from './Pages/TextInputComponent'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -21,6 +22,7 @@ createRoot(document.getElementById('root')).render(
         <Route path="badgecomponent" element={<BadgeComponent />} />
         <Route path="buttoncomponent" element={<ButtonComponent />} />
         <Route path="navbarcomponent" element={<NavbarComponent />} />
+        <Route path="textinputcomponent" element={<TextInputComponent />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>,

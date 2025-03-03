@@ -2,13 +2,13 @@ import '../styles/button.css'
 
 export default function Button({
     label = '',
-    varient = 'primary',
+    variant = 'primary',
     size = 'medium',
     iconPosition = null,
     renderIcon = null
 }) {
 
-    let btnClassNames = `${['primary', 'secondary', 'tertiary', 'destructive'].includes(varient) ? 'button' : 'button-link'} button-${varient} button-${size} button-icon-${iconPosition}`
+    let btnClassNames = `${['primary', 'secondary', 'tertiary', 'destructive'].includes(variant) ? 'button' : 'button-link'} button-${variant} button-${size} button-icon-${iconPosition}`
 
     return <div className="button-wrapper">
         <button className={btnClassNames}>

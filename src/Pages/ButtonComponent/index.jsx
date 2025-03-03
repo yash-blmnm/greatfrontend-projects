@@ -7,46 +7,46 @@ export default function ButtonComponent() {
     return <main className="button-component-main">
         <section className='buuton-section'>
             <section className='button-section__item'>
-                <Button label='Button CTA' renderIcon={null} varient='primary' size='medium' />
-                <Button label='Button CTA' renderIcon={() => <RiStarLine />} iconPosition='left' varient='primary' size='large' />
-                <Button label='Button CTA' renderIcon={() => <RiStarLine />} iconPosition='right' varient='primary' size='xtralarge' />
-                <Button label='Button CTA' renderIcon={null} varient='primary' size='doublextralarge' />
-                <Button renderIcon={() => <RiStarLine />} iconPosition='right' varient='primary' size='doublextralarge' />
+                <Button label='Button CTA' renderIcon={null} variant='primary' size='medium' />
+                <Button label='Button CTA' renderIcon={() => <RiStarLine />} iconPosition='left' variant='primary' size='large' />
+                <Button label='Button CTA' renderIcon={() => <RiStarLine />} iconPosition='right' variant='primary' size='xtralarge' />
+                <Button label='Button CTA' renderIcon={null} variant='primary' size='doublextralarge' />
+                <Button renderIcon={() => <RiStarLine />} iconPosition='right' variant='primary' size='doublextralarge' />
             </section>
             <section className='button-section__item'>
-                <Button label='Button CTA' renderIcon={null} varient='secondary' size='medium' />
-                <Button label='Button CTA' renderIcon={() => <RiStarLine />} iconPosition='left' varient='secondary' size='large' />
-                <Button label='Button CTA' renderIcon={() => <RiStarLine />} iconPosition='right' varient='secondary' size='xtralarge' />
-                <Button label='Button CTA' renderIcon={null} varient='secondary' size='doublextralarge' />
-                <Button renderIcon={() => <RiStarLine />} iconPosition='right' varient='secondary' size='doublextralarge' />
+                <Button label='Button CTA' renderIcon={null} variant='secondary' size='medium' />
+                <Button label='Button CTA' renderIcon={() => <RiStarLine />} iconPosition='left' variant='secondary' size='large' />
+                <Button label='Button CTA' renderIcon={() => <RiStarLine />} iconPosition='right' variant='secondary' size='xtralarge' />
+                <Button label='Button CTA' renderIcon={null} variant='secondary' size='doublextralarge' />
+                <Button renderIcon={() => <RiStarLine />} iconPosition='right' variant='secondary' size='doublextralarge' />
             </section>
             <section className='button-section__item'>
-                <Button label='Button CTA' renderIcon={null} varient='tertiary' size='medium' />
-                <Button label='Button CTA' renderIcon={() => <RiStarLine />} iconPosition='left' varient='tertiary' size='large' />
-                <Button label='Button CTA' renderIcon={() => <RiStarLine />} iconPosition='right' varient='tertiary' size='xtralarge' />
-                <Button label='Button CTA' renderIcon={null} varient='tertiary' size='doublextralarge' />
-                <Button renderIcon={() => <RiStarLine />} iconPosition='right' varient='tertiary' size='doublextralarge' />
+                <Button label='Button CTA' renderIcon={null} variant='tertiary' size='medium' />
+                <Button label='Button CTA' renderIcon={() => <RiStarLine />} iconPosition='left' variant='tertiary' size='large' />
+                <Button label='Button CTA' renderIcon={() => <RiStarLine />} iconPosition='right' variant='tertiary' size='xtralarge' />
+                <Button label='Button CTA' renderIcon={null} variant='tertiary' size='doublextralarge' />
+                <Button renderIcon={() => <RiStarLine />} iconPosition='right' variant='tertiary' size='doublextralarge' />
             </section>
             <section className='button-section__item'>
-                <Button label='Button CTA' renderIcon={null} varient='link-color' size='medium' />
-                <Button label='Button CTA' renderIcon={() => <RiStarLine />} iconPosition='left' varient='link-color' size='large' />
-                <Button label='Button CTA' renderIcon={() => <RiStarLine />} iconPosition='right' varient='link-color' size='xtralarge' />
-                <Button label='Button CTA' renderIcon={null} varient='link-color' size='doublextralarge' />
-                <Button renderIcon={() => <RiStarLine />} iconPosition='right' varient='link-color' size='doublextralarge' />
+                <Button label='Button CTA' renderIcon={null} variant='link-color' size='medium' />
+                <Button label='Button CTA' renderIcon={() => <RiStarLine />} iconPosition='left' variant='link-color' size='large' />
+                <Button label='Button CTA' renderIcon={() => <RiStarLine />} iconPosition='right' variant='link-color' size='xtralarge' />
+                <Button label='Button CTA' renderIcon={null} variant='link-color' size='doublextralarge' />
+                <Button renderIcon={() => <RiStarLine />} iconPosition='right' variant='link-color' size='doublextralarge' />
             </section>
             <section className='button-section__item'>
-                <Button label='Button CTA' renderIcon={null} varient='link-grey' size='medium' />
-                <Button label='Button CTA' renderIcon={() => <RiStarLine />} iconPosition='left' varient='link-grey' size='large' />
-                <Button label='Button CTA' renderIcon={() => <RiStarLine />} iconPosition='right' varient='link-grey' size='xtralarge' />
-                <Button label='Button CTA' renderIcon={null} varient='link-grey' size='doublextralarge' />
-                <Button renderIcon={() => <RiStarLine />} iconPosition='right' varient='link-grey' size='doublextralarge' />
+                <Button label='Button CTA' renderIcon={null} variant='link-grey' size='medium' />
+                <Button label='Button CTA' renderIcon={() => <RiStarLine />} iconPosition='left' variant='link-grey' size='large' />
+                <Button label='Button CTA' renderIcon={() => <RiStarLine />} iconPosition='right' variant='link-grey' size='xtralarge' />
+                <Button label='Button CTA' renderIcon={null} variant='link-grey' size='doublextralarge' />
+                <Button renderIcon={() => <RiStarLine />} iconPosition='right' variant='link-grey' size='doublextralarge' />
             </section>
             <section className='button-section__item'>
-                <Button label='Button CTA' renderIcon={null} varient='destructive' size='medium' />
-                <Button label='Button CTA' renderIcon={() => <RiStarLine />} iconPosition='left' varient='destructive' size='large' />
-                <Button label='Button CTA' renderIcon={() => <RiStarLine />} iconPosition='right' varient='destructive' size='xtralarge' />
-                <Button label='Button CTA' renderIcon={null} varient='destructive' size='doublextralarge' />
-                <Button renderIcon={() => <RiStarLine />} iconPosition='right' varient='destructive' size='doublextralarge' />
+                <Button label='Button CTA' renderIcon={null} variant='destructive' size='medium' />
+                <Button label='Button CTA' renderIcon={() => <RiStarLine />} iconPosition='left' variant='destructive' size='large' />
+                <Button label='Button CTA' renderIcon={() => <RiStarLine />} iconPosition='right' variant='destructive' size='xtralarge' />
+                <Button label='Button CTA' renderIcon={null} variant='destructive' size='doublextralarge' />
+                <Button renderIcon={() => <RiStarLine />} iconPosition='right' variant='destructive' size='doublextralarge' />
             </section>
         </section>
     </main>

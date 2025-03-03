@@ -20,27 +20,27 @@ export default function NavbarComponent() {
             <nav className='navbar-component-nav'>
                 <ul className='navbar-component-nav__links'>
                     <li>
-                        <Button varient='link-grey' size='large' label='Home' />
+                        <Button variant='link-grey' size='large' label='Home' />
                     </li>
                     <li>
-                        <Button varient='link-grey' size='large' label='Features' />
+                        <Button variant='link-grey' size='large' label='Features' />
                     </li>
                     <li>
-                        <Button varient='link-grey' size='large' label='Pricing' />
+                        <Button variant='link-grey' size='large' label='Pricing' />
                     </li>
                     <li>
-                        <Button varient='link-grey' size='large' label='About' />
+                        <Button variant='link-grey' size='large' label='About' />
                     </li>
                     <li>
-                        <Button varient='link-grey' size='large' label='Contact' />
+                        <Button variant='link-grey' size='large' label='Contact' />
                     </li>
                 </ul>
                 <ul className='navbar-component-nav__actions'>
                     <li>
-                        <Button varient='secondary' size='large' label='Learn more' />
+                        <Button variant='secondary' size='large' label='Learn more' />
                     </li>
                     <li>
-                        <Button varient='primary' size='large' label='See Pricing' />
+                        <Button variant='primary' size='large' label='See Pricing' />
                     </li>
                 </ul>
             </nav>
@@ -54,27 +54,27 @@ export default function NavbarComponent() {
                 <nav className='navbar-component-mobile-nav'>
                     <ul className='navbar-component-mobile-nav__links'>
                         <li>
-                            <Button varient='link-grey' size='large' label='Home' />
+                            <Button variant='link-grey' size='large' label='Home' />
                         </li>
                         <li>
-                            <Button varient='link-grey' size='large' label='Features' />
+                            <Button variant='link-grey' size='large' label='Features' />
                         </li>
                         <li>
-                            <Button varient='link-grey' size='large' label='Pricing' />
+                            <Button variant='link-grey' size='large' label='Pricing' />
                         </li>
                         <li>
-                            <Button varient='link-grey' size='large' label='About' />
+                            <Button variant='link-grey' size='large' label='About' />
                         </li>
                         <li>
-                            <Button varient='link-grey' size='large' label='Contact' />
+                            <Button variant='link-grey' size='large' label='Contact' />
                         </li>
                     </ul>
                     <ul className='navbar-component-nav__actions'>
                         <li>
-                            <Button varient='secondary' size='large' label='Learn more' />
+                            <Button variant='secondary' size='large' label='Learn more' />
                         </li>
                         <li>
-                            <Button varient='primary' size='large' label='See Pricing' />
+                            <Button variant='primary' size='large' label='See Pricing' />
                         </li>
                     </ul>
                 </nav>
