@@ -19,7 +19,7 @@ export default function TextInputComponent() {
                 label="Email" 
                 type="email" 
                 id='email-with-icon'
-                value="name@email.com" 
+                placeholder="name@email.com" 
                 hintText="This is a hint text" 
                 width={'100%'}
                 renderIconBefore={() => <RiMailLine />}
@@ -39,7 +39,7 @@ export default function TextInputComponent() {
                 label="Email" 
                 type="email" 
                 id='email-error'
-                placeholder="name@email.com" 
+                value="name@email.com" 
                 errorText="This is an error text" 
                 width={'100%'}
                 renderIconAfter={() => <RiQuestionLine />}

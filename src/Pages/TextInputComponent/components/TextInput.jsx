@@ -16,7 +16,7 @@ export default function TextInput ({
     disabled = false
 }) {
 
-    const idText = id ? id :label.toLowerCase().replace(' ', '-');
+    const idText = id ? id : label.toLowerCase().replace(' ', '-');
     const [focussed, setFocussed] = useState(false);
 
     return <div className="text-input-wrapper">

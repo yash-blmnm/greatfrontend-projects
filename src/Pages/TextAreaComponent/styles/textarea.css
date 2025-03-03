@@ -1,0 +1,67 @@
+.text-area-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    color: #404040;
+    line-height: 20px;
+    font-size: 14px;
+    margin: 0;
+}
+
+.text-area-label {
+    margin: 0 0 4px;
+    font-weight: 500;
+}
+
+.text-area-input {
+    padding: 10px 14px;
+    border-radius: 8px;
+    background-color: #FAFAFA;
+    border: 1px solid #E6E6E6;
+    color: #171717;
+    min-width: 300px;
+    font-size: 14px;
+    line-height: 20px;
+    outline: none;
+    resize: none;
+    height: 108px;
+    letter-spacing: 0;
+}
+
+.text-area-input:focus {
+    border: 1px solid #4338CA;
+}
+
+.text-area-input.error:focus {
+    border-color: #DC2626;
+}
+
+.text-area-input.disabled {
+    border-color: transparent;
+}
+
+.text-area-subtext {
+    visibility: hidden;
+}
+
+.text-area-subtext.show {
+    visibility: visible;
+}
+
+.text-area-character-count {
+    margin-left: auto;
+    
+}
+
+.text-area-error-text {
+    color: #DC2626;
+}
+
+.text-area-subtext {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    color: #737373;
+    font-weight: 300;
+}

@@ -10,6 +10,7 @@ import ButtonComponent from './Pages/ButtonComponent';
 import BadgeComponent from './Pages/BadgeComponent';
 import NavbarComponent from './Pages/NavbarComponent';
 import TextInputComponent from './Pages/TextInputComponent'
+import TextAreaCompont from './Pages/TextAreaComponent'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -23,6 +24,7 @@ createRoot(document.getElementById('root')).render(
         <Route path="buttoncomponent" element={<ButtonComponent />} />
         <Route path="navbarcomponent" element={<NavbarComponent />} />
         <Route path="textinputcomponent" element={<TextInputComponent />} />
+        <Route path="textareacomponent" element={<TextAreaCompont />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>,

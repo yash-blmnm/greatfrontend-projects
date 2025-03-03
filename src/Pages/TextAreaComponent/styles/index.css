@@ -1,11 +1,11 @@
-.text-input-component-main {
+.text-area-component-main {
     display: flex;
     flex-direction: column;
     align-items: center;
     min-height: 100vh;
     background-color: #ffffff;
 }
-.text-input-component-list {
+.text-area-component-list {
     display: flex;
     flex-direction: column;
     gap: 48px;
