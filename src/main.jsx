@@ -12,6 +12,7 @@ import NavbarComponent from './Pages/NavbarComponent';
 import TextInputComponent from './Pages/TextInputComponent'
 import TextAreaCompont from './Pages/TextAreaComponent'
 import TabMenuComponent from './Pages/TabMenuComponent'
+import TabsComponent from './Pages/TabsComponent'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -27,6 +28,7 @@ createRoot(document.getElementById('root')).render(
         <Route path="textinputcomponent" element={<TextInputComponent />} />
         <Route path="textareacomponent" element={<TextAreaCompont />} />
         <Route path="tabmenucomponent" element={<TabMenuComponent />} />
+        <Route path="tabscomponent" element={<TabsComponent />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>,

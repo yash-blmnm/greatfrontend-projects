@@ -3,7 +3,6 @@ import { Link } from "react-router";
 import './style/index.css'
 
 function Home() {
-    const [count, setCount] = useState(0)
 
     return (
         <main className='main'>
@@ -19,6 +18,7 @@ function Home() {
                     <li><Link to="/textinputcomponent">Text Input Component</Link></li>
                     <li><Link to="/textareacomponent">Text Area Component</Link></li>
                     <li><Link to="/tabmenucomponent">Tab Menu Component</Link></li>
+                    <li><Link to="/tabscomponent">Tabs Component</Link></li>
                 </ul>
             </section>
         </main>

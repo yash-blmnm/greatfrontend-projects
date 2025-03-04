@@ -1,0 +1,38 @@
+.tabs {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    color: #171717;
+}
+
+.tabs__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #d1d5db;
+}
+
+.tabs__header-item {
+    padding: 10px 16px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.tabs__header-item:hover, .tabs__header-item:focus {
+    color: #4338ca;
+}
+
+.tabs__header-item.active {
+    color: #4338ca;
+    border-bottom: 1px solid #4338ca;
+}
+
+.tabs__content-item {
+    text-align: left;
+    font-size:16px;
+    line-height: 24px;
+    font-weight: 500;
+}

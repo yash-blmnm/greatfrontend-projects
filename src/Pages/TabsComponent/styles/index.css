@@ -1,0 +1,9 @@
+.tabs-component-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #ffffff;
+    padding: 200px 0 0;
+}
+
