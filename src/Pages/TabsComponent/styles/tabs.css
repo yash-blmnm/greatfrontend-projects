@@ -10,7 +10,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 2px solid #d1d5db;
+    border-bottom: 1px solid #d1d5db;
 }
 
 .tabs__header-item {
@@ -27,7 +27,7 @@
 
 .tabs__header-item.active {
     color: #4338ca;
-    border-bottom: 1px solid #4338ca;
+    border-bottom: 2px solid #4338ca;
 }
 
 .tabs__content-item {
